@@ -14,6 +14,7 @@ public class HelloA {
 
     @Inject
     public HelloA(Activity activity) {
+        System.out.println("init helloA");
         this.activity = activity;
         index = 0;
     }

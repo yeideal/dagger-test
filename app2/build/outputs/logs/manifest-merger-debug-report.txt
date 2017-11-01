@@ -1,0 +1,87 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/src/main/AndroidManifest.xml:2:1-28:12
+	package
+		ADDED from /Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/src/main/AndroidManifest.xml
+		INJECTED from /Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/src/main/AndroidManifest.xml
+		INJECTED from /Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/src/main/AndroidManifest.xml
+		INJECTED from /Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/src/main/AndroidManifest.xml
+application
+ADDED from /Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/src/main/AndroidManifest.xml:5:5-26:19
+MERGED from [com.android.support:appcompat-v7:25.0.0] /Users/ye/.android/build-cache/da140d6665ea9ccf3bdbf426eae09e94683234e1/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] /Users/ye/.android/build-cache/00d2dc5550ac89d8d0ca0f4cfa8942743b595e07/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.0] /Users/ye/.android/build-cache/5e75df02cb02e05f592f365fc35249e4cc67d9bc/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:25.0.0] /Users/ye/.android/build-cache/f3032e374708f9a4624e305fad00308757b97ff6/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.0.0] /Users/ye/.android/build-cache/f90219fb053d8c82cda4c38bcf8fc88bca707e52/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.0] /Users/ye/.android/build-cache/7909b52bf2776b2721169bf21d2bf3302306b46b/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.0] /Users/ye/.android/build-cache/326a1ef5b726b75bfd460ada5e244b8f1b477fc4/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.0] /Users/ye/.android/build-cache/b64a7e03b480947dc0770af935bbe2cf7224d50f/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.0.0] /Users/ye/.android/build-cache/f1d4727d04d6679346dadf5316980fff3488b515/output/AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from /Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/src/main/AndroidManifest.xml:9:9-41
+	android:supportsRtl
+		ADDED from /Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/src/main/AndroidManifest.xml:11:9-35
+	android:roundIcon
+		ADDED from /Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/src/main/AndroidManifest.xml:10:9-54
+	android:allowBackup
+		ADDED from /Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/src/main/AndroidManifest.xml:7:9-35
+	android:icon
+		ADDED from /Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/src/main/AndroidManifest.xml:8:9-43
+	android:theme
+		ADDED from /Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/src/main/AndroidManifest.xml:12:9-40
+	android:name
+		ADDED from /Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/src/main/AndroidManifest.xml:6:9-28
+activity#com.mistong.daggertest.MainActivity
+ADDED from /Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/src/main/AndroidManifest.xml:13:9-19:20
+	android:name
+		ADDED from /Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/src/main/AndroidManifest.xml:13:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/src/main/AndroidManifest.xml:14:13-18:29
+action#android.intent.action.MAIN
+ADDED from /Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/src/main/AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from /Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/src/main/AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/src/main/AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from /Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/src/main/AndroidManifest.xml:17:27-74
+activity#com.mistong.daggertest.MainActivity2
+ADDED from /Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/src/main/AndroidManifest.xml:20:9-22:35
+	android:label
+		ADDED from /Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/src/main/AndroidManifest.xml:22:13-32
+	android:name
+		ADDED from /Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/src/main/AndroidManifest.xml:21:13-42
+activity#com.mistong.daggertest.MainActivity3
+ADDED from /Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/src/main/AndroidManifest.xml:23:9-25:35
+	android:label
+		ADDED from /Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/src/main/AndroidManifest.xml:25:13-32
+	android:name
+		ADDED from /Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/src/main/AndroidManifest.xml:24:13-42
+uses-sdk
+INJECTED from /Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.google.dagger:dagger-android-support:2.12] /Users/ye/.android/build-cache/4f53ff3a376dc5f04cee545eea90ae6c2f798fe8/output/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-android:2.12] /Users/ye/.android/build-cache/f081dd9730fb42048c2ad2da09e26e78e93ad2e1/output/AndroidManifest.xml:18:3-42
+MERGED from [com.android.support:appcompat-v7:25.0.0] /Users/ye/.android/build-cache/da140d6665ea9ccf3bdbf426eae09e94683234e1/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] /Users/ye/.android/build-cache/00d2dc5550ac89d8d0ca0f4cfa8942743b595e07/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.0.0] /Users/ye/.android/build-cache/5e75df02cb02e05f592f365fc35249e4cc67d9bc/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:25.0.0] /Users/ye/.android/build-cache/f3032e374708f9a4624e305fad00308757b97ff6/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.0.0] /Users/ye/.android/build-cache/f90219fb053d8c82cda4c38bcf8fc88bca707e52/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.0.0] /Users/ye/.android/build-cache/7909b52bf2776b2721169bf21d2bf3302306b46b/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.0.0] /Users/ye/.android/build-cache/326a1ef5b726b75bfd460ada5e244b8f1b477fc4/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.0.0] /Users/ye/.android/build-cache/b64a7e03b480947dc0770af935bbe2cf7224d50f/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.0.0] /Users/ye/.android/build-cache/f1d4727d04d6679346dadf5316980fff3488b515/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.0.0] /Users/ye/.android/build-cache/da140d6665ea9ccf3bdbf426eae09e94683234e1/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/src/main/AndroidManifest.xml
+		INJECTED from /Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/src/main/AndroidManifest.xml
+		INJECTED from /Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/src/main/AndroidManifest.xml

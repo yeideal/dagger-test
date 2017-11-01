@@ -3,6 +3,7 @@ package com.mistong.daggertest.dagger;
 import android.app.Activity;
 
 import com.mistong.daggertest.HelloB;
+import com.mistong.daggertest.HelloC;
 import com.mistong.daggertest.dagger.annotation.ActivityScope;
 
 import dagger.Module;
@@ -19,6 +20,7 @@ public class ActivityModule {
         this.activity = activity;
     }
 
+
     @Provides
     @ActivityScope
     public Activity provideActivity() {
@@ -27,7 +29,14 @@ public class ActivityModule {
 
     @Provides
     @ActivityScope
-    protected HelloB provideHelloB() {
+    protected HelloB provideHelloB(Activity activity) {
+        System.out.println("init provide helloB");
         return new HelloB(activity);
+    }
+
+    @Provides
+    protected HelloC provideHelloC() {
+        System.out.println("init provide helloC");
+        return new HelloC();
     }
 }

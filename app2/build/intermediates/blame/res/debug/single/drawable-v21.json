@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/Users/ye/.android/build-cache/da140d6665ea9ccf3bdbf426eae09e94683234e1/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/ye/.android/build-cache/da140d6665ea9ccf3bdbf426eae09e94683234e1/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/ye/.android/build-cache/da140d6665ea9ccf3bdbf426eae09e94683234e1/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/ye/AndroidStudioProjects/demo/DaggerTest/app2/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/ye/.android/build-cache/da140d6665ea9ccf3bdbf426eae09e94683234e1/output/res/drawable-v21/abc_edit_text_material.xml"
+    }
+]

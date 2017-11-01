@@ -11,15 +11,31 @@ import javax.inject.Inject;
 public class MainActivity extends Activity implements View.OnClickListener {
     @Inject
     HelloSingle helloSingle;
+    @Inject
+    HelloSingle helloSingle2;
+    @Inject
+    HelloWorld helloWorld;
+    @Inject
+    HelloWorld helloWorld2;
 
     @Inject
     HelloA helloA;
-
+    @Inject
+    HelloA helloA2;
     @Inject
     HelloB helloB;
+    @Inject
+    HelloB helloB2;
+    @Inject
+    HelloC helloC;
+    @Inject
+    HelloC helloC2;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        System.out.println("|||||||||||||||||||||||||||||||||||| activity||||||||||||||||||||||||||||||||");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         App app = (App) getApplication();
